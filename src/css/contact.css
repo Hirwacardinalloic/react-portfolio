@@ -1,0 +1,33 @@
+/* contact form */
+.contact {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contact label {
+    text-align: left;
+    display: block;
+  }
+ 
+  .contact input, .contact textarea, .contact select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+  .contact textarea {
+      max-width: 400px;
+      min-width: 400px;
+      min-height: 10em;
+  }
+  .contact button {
+    background: #05386b;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+  }

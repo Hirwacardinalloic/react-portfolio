@@ -1,0 +1,69 @@
+
+.content {
+  /* max-width: 600px; */
+  margin: 40px 40px;
+  padding: 20px;
+}
+
+.home, .skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introduction {
+  display: flex;
+  
+}
+.introduction img {
+  width: auto;
+  height: auto;
+  border-radius: 10%;
+}
+.introduction h2 {
+  width: 49%;
+  margin: 1%;
+
+}
+.skills {
+  margin-top: 2em;
+}
+.images {
+  display: flex;
+  justify-content: center;
+}
+.images img {
+  width: auto;
+  height: auto;
+  margin: 1em;
+}
+
+p {
+  font-size: 1.5em;
+  color: #05386b;
+  padding: 1em;
+}
+h1 {
+  padding: 1em;
+  font-size: 2em;
+}
+
+
+@media all and (max-width: 780px){
+  .images {
+    flex-direction: column;
+    align-items: center;
+  }
+  .images img {
+    width: 50%;
+    height: auto;
+  }
+  .introduction {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .introduction img {
+    width: 90%;
+  }
+}
+
