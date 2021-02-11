@@ -9,11 +9,14 @@ class Comments extends Component  {
     handleChange = (e)=>{
 
     }
+    handleSubmit= e=>{
+        e.preventDefault();
+    }
     
     render() {
         return ( 
             <div className="comment">
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={this.handleSubmit}>
                     <label htmlFor="email">Email</label>
                     <input type="email" id='email' placeholder="example@example.com" required onChange={this.handleChange}/>
                     <label htmlFor="comment"></label>

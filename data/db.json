@@ -11,6 +11,12 @@
       "body": "Hello body body",
       "author": "Loic",
       "id": 4
+    },
+    {
+      "title": "test",
+      "body": "test blog body",
+      "author": "Loic",
+      "id": 5
     }
   ],
   "users": [

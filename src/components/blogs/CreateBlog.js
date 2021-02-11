@@ -23,7 +23,7 @@ class CreateBlog extends Component {
         
     }
     render(){
-        const { auth } = this.props.auth;
+        const { auth } = this.props;
         if(!auth)
             return <Redirect to='/login'/>
         
